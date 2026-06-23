@@ -1,13 +1,13 @@
 ﻿# 🚚 E-Commerce Logistics Analytics
 ### SQL Server · Power BI · Data Warehousing
 
-A full end-to-end logistics analytics project built on a **star-schema data warehouse**, combining **SQL Server** KPI analysis with an interactive **Power BI** report across 5 dashboards.
+A full end-to-end logistics analytics project built on a **Galaxy Schema (Fact Constellation) data warehouse** — multiple fact tables sharing conformed dimensions — combining **SQL Server** KPI analysis with an interactive **Power BI** report across 5 dashboards.
 
 ---
 
 ## 📐 Data Model
 
-Star-schema warehouse with **4 dimension tables** and **5 fact tables**:
+**Galaxy Schema** warehouse — 5 fact tables share conformed dimensions, enabling cross-domain analysis across trips, deliveries, loads, maintenance, and driver metrics:
 
 | Layer | Tables |
 |-------|--------|
@@ -162,7 +162,7 @@ ORDER BY base_rate_per_mile DESC;
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Measures-blue?style=flat)
-![Star Schema](https://img.shields.io/badge/Star%20Schema-DWH-green?style=flat)
+![Galaxy Schema](https://img.shields.io/badge/Galaxy%20Schema-DWH-green?style=flat)
 
 ---
 
@@ -189,3 +189,4 @@ E-Commerce-Logistics/
 ---
 
 > 📬 **Mohamed Hazem** · [GitHub](https://github.com/Mohamedhazem346)
+
