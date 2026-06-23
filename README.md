@@ -1,4 +1,4 @@
-﻿# 🚚 E-Commerce Logistics Analytics
+﻿# 🚚 Logistics-Analytics-SQL-PowerBI 
 ### SQL Server · Power BI · Data Warehousing
 
 A full end-to-end logistics analytics project built on a **Galaxy Schema (Fact Constellation) data warehouse** — multiple fact tables sharing conformed dimensions — combining **SQL Server** KPI analysis with an interactive **Power BI** report across 5 dashboards.
